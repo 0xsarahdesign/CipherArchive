@@ -1,0 +1,62 @@
+.ca-header {
+  padding: 6px 0 20px;
+}
+
+.ca-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.ca-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ca-logo {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #3ee0ac, #4d8dff);
+  color: #0b1421;
+  font-weight: 800;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.ca-title {
+  margin: 0;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.ca-subtitle {
+  margin: 2px 0 0;
+  color: #9cb1d7;
+}
+
+.ca-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ca-network-pill {
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  color: #d6e9ff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  font-weight: 700;
+}
+
+@media (max-width: 720px) {
+  .ca-header__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

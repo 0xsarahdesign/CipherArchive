@@ -1,0 +1,74 @@
+.header-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.empty-state {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px dashed rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+
+.empty-title {
+  margin: 0 0 6px;
+  color: #e5ecff;
+  font-weight: 700;
+}
+
+.file-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.file-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.file-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.file-name {
+  margin: 0;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.file-meta {
+  margin: 2px 0 0;
+  color: #9cb1d7;
+}
+
+.file-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 0;
+  color: #d6e9ff;
+}
+
+.label {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 11px;
+  color: #9cb1d7;
+}
+
+.decrypted-box {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(77, 145, 255, 0.08);
+  border: 1px solid rgba(77, 145, 255, 0.25);
+}

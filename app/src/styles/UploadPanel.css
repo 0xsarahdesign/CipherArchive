@@ -1,0 +1,76 @@
+.input-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-label {
+  font-weight: 700;
+  color: #d6e9ff;
+}
+
+.file-input {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 12px;
+  color: #e5ecff;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.action-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.progress {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  height: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.progress__bar {
+  height: 100%;
+  background: linear-gradient(90deg, #42f6c0, #4d91ff);
+}
+
+.progress__label {
+  margin-top: 6px;
+  color: #cfe4ff;
+  font-size: 12px;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.summary__label {
+  margin: 0 0 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 11px;
+  color: #9cb1d7;
+}
+
+.summary__value {
+  margin: 0;
+  color: #e5ecff;
+  word-break: break-all;
+}
